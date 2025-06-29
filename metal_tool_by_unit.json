@@ -1,0 +1,184 @@
+{
+    "tin_tool_config": {
+        "unit_capbility": [
+            {
+                "ATR": [
+                    "ATR.01"
+                ]
+            },
+            {
+                "ALIGNER": [
+                    "ALIGNER.01"
+                ]
+            },
+            {
+                "LL": [
+                    "LA",
+                    "LB"
+                ]
+            },
+            {
+                "VTR01": [
+                    "VTR01.01",
+                    "VTR01.02"
+                ]
+            },
+            {
+                "DEGAS": [
+                    "CHC",
+                    "CHD"
+                ]
+            },
+            {
+                "BUFFER_IN": [
+                    "CHA"
+                ]
+            },
+            {
+                "BUFFER_OUT": [
+                    "CHB"
+                ]
+            },
+            {
+                "VTR02_IN": [
+                    "VTR02.01"
+                ]
+            },
+            {
+                "VTR02_OUT": [
+                    "VTR02.02"
+                ]
+            },
+            {
+                "PROCESS": [
+                    "CH2",
+                    "CH3",
+                    "CH4",
+                    "CH5"
+                ]
+            }
+        ],
+        "unit_flow": [
+            {
+                "unit_id": "ATR",
+                "seq_id": "1",
+                "recipe": true,
+                "recipe_time": 8.5,
+                "time_mean": 8.48,
+                "time_std": 1.03
+            },
+            {
+                "unit_id": "ALIGNER",
+                "seq_id": "2",
+                "recipe": true,
+                "recipe_time": 8.5,
+                "time_mean": 8.5,
+                "time_std": 0.7
+            },
+            {
+                "unit_id": "ATR",
+                "seq_id": "3",
+                "recipe": true,
+                "recipe_time": 14.5,
+                "time_mean": 14.28,
+                "time_std": 2.71
+            },
+            {
+                "unit_id": "LL",
+                "seq_id": "4",
+                "recipe": false,
+                "recipe_time": 0,
+                "time_mean": 487.12,
+                "time_std": 38.41
+            },
+            {
+                "unit_id": "VTR01",
+                "seq_id": "5",
+                "recipe": true,
+                "recipe_time": 11.5,
+                "time_mean": 11.5,
+                "time_std": 0.62
+            },
+            {
+                "unit_id": "DEGAS",
+                "seq_id": "6",
+                "recipe": false,
+                "recipe_time": 0,
+                "time_mean": 797.23,
+                "time_std": 250.67
+            },
+            {
+                "unit_id": "VTR01",
+                "seq_id": "7",
+                "recipe": true,
+                "recipe_time": 10.5,
+                "time_mean": 10.35,
+                "time_std": 0.48
+            },
+            {
+                "unit_id": "BUFFER_IN",
+                "seq_id": "8",
+                "recipe": false,
+                "recipe_time": 0,
+                "time_mean": 398.18,
+                "time_std": 126.02
+            },
+            {
+                "unit_id": "VTR02_IN",
+                "seq_id": "9",
+                "recipe": true,
+                "recipe_time": 22.15,
+                "time_mean": 22.15,
+                "time_std": 0.4
+            },
+            {
+                "unit_id": "PROCESS",
+                "seq_id": "10",
+                "recipe": false,
+                "recipe_time": 334,
+                "time_mean": 334.1,
+                "time_std": 25.64
+            },
+            {
+                "unit_id": "VTR02_OUT",
+                "seq_id": "11",
+                "recipe": true,
+                "recipe_time": 12.0,
+                "time_mean": 12.05,
+                "time_std": 0.38
+            },
+            {
+                "unit_id": "BUFFER_OUT",
+                "seq_id": "12",
+                "recipe": true,
+                "recipe_time": 96,
+                "time_mean": 96.0,
+                "time_std": 0.58
+            },
+            {
+                "unit_id": "VTR01",
+                "seq_id": "13",
+                "recipe": true,
+                "recipe_time": 10.5,
+                "time_mean": 10.03,
+                "time_std": 0.41
+            },
+            {
+                "unit_id": "LL",
+                "seq_id": "14",
+                "recipe": false,
+                "recipe_time": 30,
+                "time_mean": 29.87,
+                "time_std": 2.09
+            },
+            {
+                "unit_id": "ATR",
+                "seq_id": "15",
+                "recipe": true,
+                "recipe_time": 1.1,
+                "time_mean": 1.11,
+                "time_std": 0.1
+            }
+        ]
+    }
+} 
